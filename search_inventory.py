@@ -1,4 +1,4 @@
-from Show_Inventory import show_inventory
+from Show_Inventory import show
 
 def search(inventory):
     if not inventory:
