@@ -1,5 +1,5 @@
 
-def add_product(inventory):
+def add(inventory):
     Add = 'yes'
     while Add == 'yes':
         # Request the data
