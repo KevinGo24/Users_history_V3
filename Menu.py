@@ -1,8 +1,10 @@
 Inventory = []
 system = 'Yes'
 #-------- Imports
-from Add_product import *
-from Show_Inventory import *
+from Add_product import add
+from Show_Inventory import show
+from search_inventory import search
+#-------- 
 def menu():
     global system
     while system == 'Yes':
@@ -22,11 +24,11 @@ def menu():
         Users = int(input('Which option do you want to choose: '))
         if Users == 1:
             # Aquí llamas a tu función de agregar
-            add_product(Inventory)
+            add(Inventory)
         elif Users == 2:
-            show_inventory(Inventory)
+            show(Inventory)
         elif Users == 3:
-            print ('esto es una prueba ')
+            search(Inventory)
         elif Users == 4:
             print ('esto es una prueba ')
         elif Users == 5:
