@@ -21,8 +21,8 @@ def menu():
         print('='*72)
         Users = int(input('Which option do you want to choose: '))
         if Users == 1:
-            add_product(Inventory)
             # Aquí llamas a tu función de agregar
+            add_product(Inventory)
         elif Users == 2:
             show_inventory(Inventory)
         elif Users == 3:
@@ -37,10 +37,11 @@ def menu():
             print ('esto es una prueba ')
         elif Users == 8:
             print ('esto es una prueba ')
+        # Esto rompe el ciclo while
         elif Users == 9:
             print("Exit system...")
-            system = 'no' # Esto rompe el ciclo while
+            system = 'no' 
         else:
-            print("Opción no válida, intenta de nuevo.")
+            print("Invalid option, please try again.")
     if Users < 1 or Users > 9:
-        print("Operación no válida. Por favor, selecciona una opción del 1 al 4.")
+        print("Invalid operation. Please select an option from 1 to 4.")
