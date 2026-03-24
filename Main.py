@@ -4,6 +4,8 @@ from Menu import menu
 menu()
 # ----------------------------------
 #------ Add_product imports are performed
-from Add_product import add_product
+from Add_product import add
 #------ Show_inventory imports are performed
 from Show_Inventory import show_inventory
+#------ Search_inventory imports are performed
+from search_inventory import search
