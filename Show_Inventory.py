@@ -1,6 +1,5 @@
-from Add_product import *
-
-def show_inventory(inventory):
+from Add_product import add
+def show(inventory):
 
     if not inventory:
         print('The inventory is empty!')
