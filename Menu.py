@@ -6,6 +6,7 @@ from Show_Inventory import show
 from search_inventory import search
 from Uptade_inventory import uptade
 from Archive import *
+from inventory_statistics import buscarmaximo
 #-------- 
 def menu():
     global system
@@ -36,7 +37,7 @@ def menu():
         elif Users == 5:
             print ('esto es una prueba ')
         elif Users == 6:
-            print ('esto es una prueba ')
+            buscarmaximo(Inventory)
         elif Users == 7:
             save_csv(Inventory)
         elif Users == 8:
