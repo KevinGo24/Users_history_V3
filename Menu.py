@@ -5,7 +5,7 @@ from Add_product import add
 from Show_Inventory import show
 from search_inventory import search
 from Uptade_inventory import uptade
-from Archive import Load
+from Archive import *
 #-------- 
 def menu():
     global system
@@ -38,9 +38,9 @@ def menu():
         elif Users == 6:
             print ('esto es una prueba ')
         elif Users == 7:
-            Load()
+            save_csv(Inventory)
         elif Users == 8:
-            print ('esto es una prueba ')
+            load_csv()
         # Esto rompe el ciclo while
         elif Users == 9:
             print("Exit system...")
