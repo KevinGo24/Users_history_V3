@@ -9,3 +9,5 @@ from Add_product import add
 from Show_Inventory import show
 #------ Search_inventory imports are performed
 from search_inventory import search
+#------ Update_inventory imports are performed
+from Uptade_inventory import uptade
