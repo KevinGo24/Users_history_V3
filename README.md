@@ -15,5 +15,6 @@
 * Usa un bucle while para mantener el programa activo hasta “Salir”.
 * Asegúrate de que ningún error del usuario cierre la aplicación (captura y mensaje, volver al menú).
 
-* ![Users_history_v3](https://github.com/user-attachments/assets/c73ddf28-ab54-4cba-bdef-46c0dd14c581)
+* ![historia_usuario_v3](https://github.com/user-attachments/assets/dc50275a-ed8d-4613-ad9a-ff2f46885cf6)
+
 * https://github.com/KevinGo24/Users_history_V3.git
